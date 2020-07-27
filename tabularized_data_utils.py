@@ -1,3 +1,5 @@
+import numpy as np
+
 def mean_encode_categorical(df, target_col):
     """Mean encode categorical features with epanding mean. nans will be replaced with mean of column. df: pd dataframe, target_col: target column to get values from"""
     
